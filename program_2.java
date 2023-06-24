@@ -21,8 +21,8 @@ public class program_2 {
                 }
                 writer.newLine();
             }
-        } catch (IOException e) {
-            System.out.println("Ошибка при записи в файл: " + e.getMessage());
+        } catch (Exception e) {
+            System.out.println("Ошибка");
         }
 
     }
